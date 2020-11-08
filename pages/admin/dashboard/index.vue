@@ -10,6 +10,7 @@
 import Navbar from '@/layouts/partials/NavbarLeft.vue'
 import Sidebar from '@/layouts/partials/Sidebar.vue'
 export default {
+  layout: 'admin',
   components: {
     Navbar,
     Sidebar

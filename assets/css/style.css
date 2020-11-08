@@ -1,0 +1,152 @@
+.body_blog {
+  margin: 0;
+  padding: 0;
+  /* text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; */
+  color: rgba(0,0,0,0.8);
+  /* position: relative;
+  min-height: 100vh; */
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+
+.body_blog .container-small {
+  width: 100%;
+  padding: 0 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fixed-nav {
+  position: fixed;
+  width: 100%;
+  background-color: #FFF;
+  z-index: 1024;
+  transition: opacity 200ms ease 0s;
+}
+
+.title_content h1 {
+  line-height: 40px;
+  margin-top: 0.55em;
+  font-size: 30px;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.bg_content .row .col-md-5 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .body_blog .container-small {
+    width: 100%;
+    padding: 0 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bg_content .row .col-md-5 {
+    display: none;
+  }
+  .title_content h1 {
+    line-height: 46px;
+    margin-top: 0.55em;
+    font-size: 38px;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+} 
+@media (min-width: 992px) {
+  .body_blog .container-small {
+    width: 100%;
+    padding: 0 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bg_content .row .col-md-5 {
+    display: block;
+  }
+} 
+@media (min-width: 1200px) {
+  .body_blog .container-small {
+    width: 100%;
+    padding: 0 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bg_content .row .col-md-5 {
+    display: block;
+  }
+}
+
+.body_blog .fixed-top_one {
+  position: fixed;
+  top: 110px;
+  z-index: 1030;
+  width: 470px;
+}
+
+.body_blog a {
+  color: black;
+  text-decoration: none;
+}
+
+.body_blog .navbar {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.as {
+  max-width: 33%;
+}
+
+.qz {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.bz {
+  display: flex;
+}
+
+.mtz {
+  margin-bottom: 24px;
+}
+
+.gb {
+  font-weight: bold;
+  color: rgba(230, 230, 230, 1);
+  line-height: 36px;
+  font-size: 30px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.za {
+  flex: 0 0 auto;
+  width: 40px;
+}
+
+.v {
+  display: flex;
+  flex-direction: column;
+}
+
+.qu {
+  margin-bottom: 8px;
+}
+
+.bn {
+  border-radius: 50%;
+}
+
+.ac {
+  align-items: center;
+}
+
+.x {
+  display: flex;
+}
+
+.nx {
+  font-size: 13px;
+}

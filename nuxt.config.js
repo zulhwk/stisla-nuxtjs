@@ -25,8 +25,8 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '@/assets/stisla/css/style.css',
-    '@/assets/stisla/css/components.css'
+    // '@/assets/stisla/css/style.css',
+    // '@/assets/stisla/css/components.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
