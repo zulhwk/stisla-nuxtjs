@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import Search from '@/layouts/partials/Search.vue'
+import Search from '@/components/partials/Search.vue'
 export default {
   components: {
     Search

@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Navbar from '@/layouts/partials/NavbarLeft.vue'
-import Sidebar from '@/layouts/partials/Sidebar.vue'
+import Navbar from '@/components/partials/NavbarLeft.vue'
+import Sidebar from '@/components/partials/Sidebar.vue'
 export default {
   layout: 'admin',
   components: {
